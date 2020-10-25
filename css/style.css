@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background: #00ecb9;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#countdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 640px;
+    width: 50%;
+}
+
+.countdown-title {
+    /*color: #396;*/
+    font-weight: 100;
+    font-size: 40px;
+    margin: 20px 0px 20px;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.countdown-number {
+    padding: 10px;
+    /*border-radius: 3px;*/
+    /*background: #00bf96;*/
+    display: inline-block;
+}
+
+.countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816a;
+    display: inline-block;
+}
+
+.countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+h1, h2 {
+    color: #fff;
+    line-height: 1.16667;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+h1 {
+    font-size: 43px;
+    font-family: Montserrat;
+    font-weight: 700;
+    /*border: 2px dashed #fff;*/
+    margin-top: 50px;
+    /*padding: 30px;*/
+    cursor: pointer;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all 1.98s ease;
+}
+
+h1:hover {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
